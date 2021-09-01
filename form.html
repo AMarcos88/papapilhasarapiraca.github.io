@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Cadastro</title>
+        <link rel="stylesheet" href="form.css" />
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <style>
+
+    </style>
+    <body>
+        <form name="form" id="formulario" method="POST">
+            <h1>Cadastro</h1>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" class="valor" placeholder="Ex: Bruno" /> <br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" class="valor" placeholder="Ex: brunoxd@gmail.com" /> <br>
+
+            <label for="data">Data de nascimento:</label>
+            <input type="date" id="data" name="data" class="valor" /> <br>
+
+            <label for="sexo">Sexo:</label>
+            <input type="text" id="sexo" name="sexo" class="valor" placeholder="Masculino/Feminino" /> <br>
+
+            <label for="rua">Logradouro:</label>
+            <input type="text" id="rua" name="rua" class="valor" placeholder="Ex: Rua PAulo Afonso" /> <br>
+
+            <label for="numero">Numero:</label>
+            <input type="number" id="numero" name="numero" class="valor" placeholder="Ex: 541" min="0" max="9999" /> <br>
+
+            <label for="bairro">Bairro:</label>
+            <input type="text" id="bairro" name="bairro" class="valor" placeholder="Ex: Centro" /> <br>
+
+            <label for="estado">Estado:</label>
+            <input type="text" id="estado" name="estado" class="valor" placeholder="Ex: Alagoas" /> <br>
+
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade" class="valor" placeholder="Ex: Arapiraca" /> <br>
+            
+            <input type="submit" name="acao" value="Enviar" onclick="return validar()">
+
+        </form>
+
+    </body>
+
+
+
+</html>
